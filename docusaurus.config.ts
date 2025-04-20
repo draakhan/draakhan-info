@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'draakhan.info',
+  tagline: 'Strona osobista Bartłomieja "Draakhana" Szymańskiego',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -47,13 +47,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/banner.jpg',
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Draakhan.info',
     },
     footer: {
       style: 'dark',
@@ -62,30 +58,26 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/draakhan',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/draakhan/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Tech',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/draakhan',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} by Draakhan. Built with <a href="https://docusaurus.io/" title="Docusaurus" target="_blank">Docusaurus</a>. Icons by <a href="https://icons8.com/" title="Icons8" target="_blank">Icons8</a>.`,
     },
     prism: {
       theme: prismThemes.github,
